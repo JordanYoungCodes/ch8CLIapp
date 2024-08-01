@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { Circle, Square, Triangle } = require('./lib');
-
+//function handles the shape choice
 const shapeChoice = (shape) => {
     let lChoice;
     if(shape === "Circle") {
@@ -13,7 +13,7 @@ const shapeChoice = (shape) => {
     }
     return lChoice;
 }
-
+//inquirer prompts
 inquirer
 .prompt([
     {
@@ -53,7 +53,7 @@ ${chosenShape.render()}
 <text x="150" y="120" font-size="60" text-anchor="middle" fill="${data.ltextcolor}">${data.ltext}</text>
 </svg>`;
 // write to file
-fs.writeFile('log.svg', svg, (err) =>
+fs.writeFile('logo.svg', svg, (err) =>
     err ? console.error(err) : console.log('Commit logged!'))
 })
 
