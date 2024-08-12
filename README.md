@@ -17,7 +17,7 @@
 - M.I.T license
 
 ## Video tutorial
-- https://drive.google.com/file/d/1ulSr3YfJILg87oDLSXe6fM5Yt8PgZ6lo/view
+- https://drive.google.com/file/d/1BP081o_-kyCHyuvjC8__RJCRuMRfOJq3/view
 
 ## Credits
 - Had a little help from tutors.
